@@ -19,7 +19,7 @@ deploy:
   provider: elasticbeanstalk
   edge: true
   region: ap-northeast-2
-  application: docker-react-travis
+  app: docker-react-travis
   env: Docker-react-travis-env
   bucket_name: elasticbeanstalk-ap-northeast-2-992382430455
   bucket_path: docker-react-travis
